@@ -1,6 +1,6 @@
 from django.db import models
 
-class Clip(models.Model):
+"""class Clip(models.Model):
     message = models.CharField("Message", max_length=240)
     created = models.DateField(auto_now_add=True)
 
@@ -9,3 +9,4 @@ class Clip(models.Model):
     
     class Meta:
         db_table="Clip"
+"""
