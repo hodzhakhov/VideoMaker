@@ -14,7 +14,7 @@ def create_video(text):
     text_color = ['white', 'red', 'green', 'blue']
     background_color = (0, 0, 0)
 
-    font_path = "DejaVuSerif-Bold.ttf"
+    font_path = "LiberationSans-Regular.ttf"
     font = ImageFont.truetype(font_path, text_size)
 
     text_bbox = font.getbbox(user_text)
